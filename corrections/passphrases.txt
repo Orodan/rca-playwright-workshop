@@ -1,0 +1,6 @@
+Chapter_1=Playwright is correctly installed with the version 1.32.1 !
+Chapter_2=Fast and reliable end-to-end testing for modern web apps | Playwright
+Chapter_3=Playwright is aligned with the modern browser architecture and runs tests out-of-process.
+Chapter_4=Instead, follow best practices above to create a locator that uniquely identifies the target element.
+Chapter_5=E2E testing can be hard but not with the right tool.
+Key_Chapter_5=1 5 2+5 3 1+11

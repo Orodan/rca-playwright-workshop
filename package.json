@@ -1,0 +1,28 @@
+{
+  "name": "handson-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mathieu Mure <mathieu.mure@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "fmt": "prettier --write .",
+    "check": "node ./scripts/check-install.js",
+    "decode": "node ./scripts/decode.js",
+    "test:e2e": "playwright test",
+    "lint": "prettier --check ."
+  },
+  "devDependencies": {
+    "@algolia/client-search": "4.14.2",
+    "@playwright/test": "^1.32.1",
+    "@types/node": "18.7.6",
+    "playwright": "^1.32.1",
+    "prettier": "2.7.1",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4",
+    "vitepress": "1.0.0-alpha.5",
+    "vue": "3.2.37"
+  }
+}

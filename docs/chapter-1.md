@@ -15,7 +15,7 @@ node -v # v16+
 - Clonez le code source du codelab
 
 ```
-git clone https://github.com/oroden/rca-workshop-playwright.git
+git clone https://github.com/Orodan/rca-playwright-workshop
 ```
 
 - Puis installez les dépendances
@@ -44,7 +44,7 @@ yarn check
 npm run check
 ```
 
-Vous devriez constater que vous avez bien installé la dernière version de Playwright (`v1.32.1`).  
+Vous devriez constater que vous avez bien installé la dernière version de Playwright (`v1.32.1`).
 
 Le résultat de cette commande est la première phrase qui vous permettra de décoder les codes secrets de Microsoft. **Notez-la précieusement** dans `src/passphrases.txt`.
 
